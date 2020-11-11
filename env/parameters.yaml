@@ -1,0 +1,15 @@
+adminUser:
+  password: local:wzu/adminUser:password
+  username: ue64007
+docker:
+  email: manuel.wallrapp@sbb.ch
+  password: local:wzu/docker:password
+  url: https://docker.bin.sbb.ch
+  username: paasprodaws
+enableDocker: true
+pipelineUser:
+  email: 8551951+manuelwallrapp@users.noreply.github.com
+  token: local:wzu/pipelineUser:token
+  username: manuelwallrapp
+prow:
+  hmacToken: local:wzu/prow:hmacToken

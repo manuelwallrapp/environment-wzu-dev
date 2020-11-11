@@ -13,11 +13,12 @@ cluster:
   namespace: jx
   provider: openshift
   registry: https://docker.bin.sbb.ch
+  strictPermissions: true
 environments:
 - ingress:
-    domain: ""
+    domain: apps.aws-wzu01t.ocp-test.sbb-aws.net
     externalDNS: false
-    namespaceSubDomain: ""
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
@@ -74,6 +75,6 @@ velero:
   schedule: ""
   ttl: ""
 versionStream:
-  ref: eb38ee34017f2ff3621a989b4cf7527303c42b03
+  ref: v1.0.607
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: lighthouse

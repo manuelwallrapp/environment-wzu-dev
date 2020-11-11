@@ -4,7 +4,7 @@ pipelineConfig:
     pullRequest:
       pipeline:
         agent:
-          image: gcr.io/jenkinsxio/builder-go:2.1.150-769
+          image: gcr.io/jenkinsxio/builder-go
         stages:
         - name: pr-checks
           options:
@@ -38,10 +38,18 @@ pipelineConfig:
     release:
       pipeline:
         agent:
-          image: gcr.io/jenkinsxio/builder-go:2.1.150-769
+          image: gcr.io/jenkinsxio/builder-go
         environment:
         - name: DEPLOY_NAMESPACE
           value: jx
+        - name: GIT_AUTHOR_NAME
+          value: manuelwallrapp
+        - name: GIT_COMMITTER_NAME
+          value: manuelwallrapp
+        - name: GIT_AUTHOR_EMAIL
+          value: 8551951+manuelwallrapp@users.noreply.github.com
+        - name: GIT_COMMITTER_EMAIL
+          value: 8551951+manuelwallrapp@users.noreply.github.com
         stages:
         - name: release
           options:
