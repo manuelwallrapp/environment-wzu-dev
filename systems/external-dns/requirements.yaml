@@ -2,3 +2,4 @@ dependencies:
 - condition: external-dns.enabled
   name: external-dns
   repository: https://charts.bitnami.com/bitnami
+  version: 1
