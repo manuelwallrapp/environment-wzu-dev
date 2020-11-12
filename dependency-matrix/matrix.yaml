@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: manuelwallrapp
+  repo: wzu-jx-1
+  url: https://github.com/manuelwallrapp/wzu-jx-1.git
+  version: ""
+  versionURL: ""
