@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[manuelwallrapp/wzu-jx-2](https://github.com/manuelwallrapp/wzu-jx-2.git) |  | []() | 
+[manuelwallrapp/wzu-jx-3](https://github.com/manuelwallrapp/wzu-jx-3.git) |  | []() | 

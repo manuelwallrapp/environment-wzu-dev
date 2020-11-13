@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: manuelwallrapp
-  repo: wzu-jx-2
-  url: https://github.com/manuelwallrapp/wzu-jx-2.git
+  repo: wzu-jx-3
+  url: https://github.com/manuelwallrapp/wzu-jx-3.git
   version: ""
   versionURL: ""
