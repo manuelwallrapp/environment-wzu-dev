@@ -1,0 +1,48 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: manuelwallrapp
+    provider: github
+    repository: wzu-jx-3
+  managedFields:
+  - apiVersion: jenkins.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:owner: {}
+          f:provider: {}
+          f:repository: {}
+      f:spec:
+        .: {}
+        f:description: {}
+        f:httpCloneURL: {}
+        f:org: {}
+        f:provider: {}
+        f:providerKind: {}
+        f:providerName: {}
+        f:repo: {}
+        f:scheduler:
+          .: {}
+          f:kind: {}
+          f:name: {}
+        f:url: {}
+    manager: jx
+    operation: Update
+    time: "2020-11-13T07:47:35Z"
+  name: manuelwallrapp-wzu-jx-3
+spec:
+  description: Imported application for manuelwallrapp/wzu-jx-3
+  httpCloneURL: https://github.com/manuelwallrapp/wzu-jx-3.git
+  org: manuelwallrapp
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: wzu-jx-3
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/manuelwallrapp/wzu-jx-3.git
